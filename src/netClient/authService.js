@@ -31,6 +31,7 @@ export async function doLogin(login, password) {
 export async function doLogout() {
     try {
         const response = await http.post('/users/logout', {},);
+        //localStorage.clear();
         localStorage.removeItem('x-access-token')
         return response.data;
     } catch (error) {

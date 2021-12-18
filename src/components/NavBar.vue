@@ -1,13 +1,13 @@
 <template>
-  <div id="nav">
+  <div id="nav" class="nav">
     <div class="link-wrapper">
       <ul class="links">
         <div class="nav-links">
           <router-link tag="li" class="link" exact to="/">Список дел</router-link>
           <router-link tag="li" class="link" to="/info">Инфо</router-link>
         </div>
-        <a @click="onLogoutClicked" class="logout link">
-          <li>
+        <a @click="onLogoutClicked" class="link">
+          <li class="link">
             Выйти
           </li>
         </a>

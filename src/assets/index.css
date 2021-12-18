@@ -48,6 +48,21 @@ body{
     justify-content: space-between;
 
 }
+.nav {
+    background-color: #ffffff;
+}
+.link-wrapper {
+    background-color: #ffffff;
+}
+.links {
+    background-color: #ffffff;
+}
+.nav-links {
+    background-color: #ffffff;
+}
+.link {
+    background-color: #ffffff;
+}
 .mes {
     position: absolute;
     border-radius: 15px 100px 15px 100px;
